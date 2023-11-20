@@ -1,0 +1,160 @@
+* {
+
+    margin: 0px;
+  
+    padding: 0px;
+  
+    box-sizing: border-box;
+  
+  }
+  
+  .body-text {
+  
+    display: flex;
+  
+    font-family: "Montserrat", sans-serif;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    margin-top: 250px;
+  
+    
+  
+  }
+  
+  nav {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    min-height: 8vh;
+  
+    background-color: blue;
+  
+    font-family: "Montserrat", sans-serif;
+  
+  }
+  
+  .head {
+  
+    color: white;
+  
+    text-transform: uppercase;
+  
+    letter-spacing: 5px;
+  
+    font-size: 20px;
+  
+    align-self: center;
+  
+    margin-right: 800px;
+  
+  
+  }
+  
+  .nav-links {
+  
+    height: 100%;
+  
+    width: 200px;
+    
+    position: fixed;
+    
+    z-index: 1;
+    
+    top: 0;
+    
+    left: 0;
+    
+    background-color: blue;
+    
+    overflow-x: visible;
+    
+    padding-top: 20px;
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border:none;
+    
+  }
+  
+  .row {
+  margin-left: 275px;
+  margin-top: 30px;
+  margin-bottom: 10%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  width: 0px;
+  font-size: medium;
+  }
+  
+  .nav-links li {
+  
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+  
+    
+    color: white;
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+    font-weight: bold;
+  
+    font-size: 14px;
+  
+    padding: 14px 16px;
+  
+    display: block;
+  
+    
+  
+  }
+  .links a{
+    color: black;
+  
+    text-decoration: none;
+  
+    letter-spacing: 0px;
+  
+    font-weight: bold;
+  
+    font-size: 13px;
+  
+    padding: 14px 16px;
+    
+  }
+  
+  .nav-links a:hover:not(.active) {
+  
+    background-color: lightseagreen;
+  
+  }
+  
+  .nav-links li a.active {
+  
+    background-color: #4caf50;
+  
+  }
+  
+  .container table {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1px;
+    border-radius: 20px;
+  }
+  table, th, td {
+    width: 900px;
+    padding: 10px;
+    border-radius: 50px;
+  }

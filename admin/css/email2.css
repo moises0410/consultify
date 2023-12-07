@@ -1,0 +1,86 @@
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .form-container {
+    max-width: 600px; /* Adjust the width as needed */
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  .form-container h4 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+
+  .form-container h5 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+
+  .time-container {
+    border-left: 0px solid #ccc;
+    padding-left: 1px;
+  }
+  
+  .concern-container {
+    border-left: 0px solid #ccc;
+    padding-left: 1px;
+  }
+
+  .form-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the submit button */
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+/* Styling for the select tag */
+#select {
+    width: 25%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Set the background color as needed */
+    font-size: 15px;
+  }
+  
+  /* Optional: Hover and focus styles for the select tag */
+  #select:hover,
+  #select:focus {
+    border-color: #007bff; /* Change the border color on hover/focus */
+    outline: none;
+  }
+    
+  #select option.active {
+    background-color: #007bff; /* Set the background color for the selected option */
+    color: #fff; /* Set the text color for the selected option */
+}
